@@ -1,0 +1,43 @@
+/* nav.css */
+
+.navbar {
+    background-color: #cbe4e7; /* Tailwind's blue-600 */
+    color: rgb(245, 28, 28);
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+  
+  .navbar-container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    list-style: none;
+  }
+  
+  .navbar-links li {
+    cursor: pointer;
+    transition: text-decoration 0.2s ease-in-out;
+  }
+  
+  .navbar-links li:hover {
+    color: black;
+  }
+  
